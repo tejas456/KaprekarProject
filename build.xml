@@ -19,7 +19,7 @@
 	    </fileset>
 	</path>
 	
-    <!-- executable and fork properties added as a workaround for CSE's ant configuration -->  
+    <!-- executable and fork properties added workaround for CSE's ant configuration -->  
     <target name="compile">
         <mkdir dir="${classes.dir}"/>
         <javac includeantruntime="false" 
